@@ -1,0 +1,12 @@
+<h1>Stupid Coaching</h1>
+<h5>Ask your coach anything:</h5>
+<form action="/answer" method="get">
+   <div class="form-row justify-content-center no-gutters">
+    <div class="col-12 col-sm-6 col-md-8">
+      <input type="text" name="question" class="form-control form-control-lg" placeholder="Your question" value="<%= params[:question] %>">
+    </div>
+    <div class="col-6 col-md-4">
+      <input type="submit" value="Ask" class="btn btn-primary">
+    </div>
+  </div>
+</form>
